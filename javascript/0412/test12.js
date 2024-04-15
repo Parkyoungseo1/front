@@ -70,13 +70,13 @@ let res3 = arr3.sort();
 console.log("res3 : " + res3);
 res3.forEach((data, i) => console.log(i, data));
 
-// sort((a,b) => a-b); a-b > 0 :  내림차순, a-b < 0 : 오름차순
+// sort((a,b) => a-b);  a-b > 0 : 내림차순, a-b < 0 : 오름차순
 res3 = arr3.sort((a, b) => a-b);
-console.log("res3(오름차순) : " + res3);
+console.log("res3(오름차순) :" + res3);
 console.log('');
 
 res3 = arr3.sort((a, b) => b-a);
-console.log("res3(내림차순) : " + res3);
+console.log("res3(내림차순) :" + res3);
 console.log('');
 
 arr3 = [10, 8, 20, 15, 11, 17];

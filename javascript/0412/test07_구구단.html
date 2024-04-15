@@ -16,7 +16,7 @@
       let str = "";
       let res;
 
-      str += "* " + su + "단 * <br/> "
+      str += "* "+ su +"단 *<br/>"
       for(let i=1; i<=9; i++) {
         res = su * i;
         str += su + ' * ' + i + " = " + res + "<br/>";
@@ -38,7 +38,7 @@
   </p>
   <p>
     <input type="button" value="구구단출력" onclick="forCheck()" class="btn btn-success form-control mb-2"/>
-    <input type="button" value="초기화" onclick="location.reload" class="btn btn-warning form-control"/>
+    <input type="button" value="초기화" onclick="location.reload()" class="btn btn-warning form-control"/>
   </p>
   <hr/>
   <div id="demo"></div>

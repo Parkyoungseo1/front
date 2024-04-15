@@ -38,10 +38,10 @@ num += "su3.toFixed(2) => " + su3.toFixed(2);
 
 num += "Math.random() => " + Math.random();
 num += "Math.random() * 10 => " + Math.random() * 10;
-//=================================================================
-// num += parseInt(Math.random() * 10);
-// // num += parseInt(Math.random() * 10) + 1;
-num += parseInt(Math.random() * 45) +1;
-num += parseInt(Math.random() * (15-1)) +5;   //5~15까지의 난수
+// =======================================
+// num = parseInt(Math.random() * 10);
+// num = parseInt(Math.random() * 10) + 1;
+num = parseInt(Math.random() * 45) + 1;
+num = parseInt(Math.random() * (15-5+1)) + 5;   // 5~15까지의 난수
 
 demo.innerHTML = num;

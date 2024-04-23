@@ -20,7 +20,9 @@
 
       // alert("상품명 : " + product);
 
-      demo.innerHTML = product;
+      demo3.innerHTML = "안녕";
+      demo3.innerHTML += product;
+      demo2.innerHTML = "demo2";
     });
 
     // 콤마 변환함수
@@ -44,11 +46,12 @@
       <input type="number" name="su" id="su" value="2" class="form-control mb-3"/>
     </div>
     <div>
+      <div id="demo2"></div>
       <input type="button" value="계산하기" id="calcBtn" class="btn btn-success form-control mb-3"/>
     </div>
   </form>
   <hr/>
-  <div id="demo"></div>
+  <div id="demo3"></div>
 </div>
 </body>
 </html>
